@@ -1,0 +1,7 @@
+c:\Users\user\Documents\Visual Studio 2013\Projects\CoffeeMachine\CoffeeMachine.Test\obj\Debug\CoffeeMachine.Test.csprojResolveAssemblyReference.cache
+c:\Users\user\Documents\Visual Studio 2013\Projects\CoffeeMachine\CoffeeMachine.Test\bin\Debug\CoffeeMachine.Test.dll
+c:\Users\user\Documents\Visual Studio 2013\Projects\CoffeeMachine\CoffeeMachine.Test\bin\Debug\CoffeeMachine.Test.pdb
+c:\Users\user\Documents\Visual Studio 2013\Projects\CoffeeMachine\CoffeeMachine.Test\bin\Debug\CoffeeMachine.exe
+c:\Users\user\Documents\Visual Studio 2013\Projects\CoffeeMachine\CoffeeMachine.Test\bin\Debug\CoffeeMachine.pdb
+c:\Users\user\Documents\Visual Studio 2013\Projects\CoffeeMachine\CoffeeMachine.Test\obj\Debug\CoffeeMachine.Test.dll
+c:\Users\user\Documents\Visual Studio 2013\Projects\CoffeeMachine\CoffeeMachine.Test\obj\Debug\CoffeeMachine.Test.pdb
