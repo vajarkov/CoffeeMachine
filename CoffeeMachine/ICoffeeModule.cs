@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CoffeeMachine
 {
-    public interface IWaterModule
+    public interface ICoffeeModule
     {
-        void FillWater(int units);
-        void TakeWater(int units);
+        void FillCoffee(int units);
+        void TakeCoffee(int units);
     }
 }

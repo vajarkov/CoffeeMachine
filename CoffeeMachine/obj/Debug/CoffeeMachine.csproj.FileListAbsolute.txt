@@ -7,3 +7,5 @@ c:\Users\user\Documents\Visual Studio 2013\Projects\CoffeeMachine\CoffeeMachine\
 c:\Users\user\Documents\Visual Studio 2013\Projects\CoffeeMachine\CoffeeMachine\bin\Debug\CoffeeMachine.pdb
 c:\Users\user\Documents\Visual Studio 2013\Projects\CoffeeMachine\CoffeeMachine\obj\Debug\CoffeeMachine.exe
 c:\Users\user\Documents\Visual Studio 2013\Projects\CoffeeMachine\CoffeeMachine\obj\Debug\CoffeeMachine.pdb
+C:\Users\user\documents\visual studio 2013\Projects\CoffeeMachine\CoffeeMachine\bin\Debug\Moq.dll
+C:\Users\user\documents\visual studio 2013\Projects\CoffeeMachine\CoffeeMachine\bin\Debug\Moq.xml
