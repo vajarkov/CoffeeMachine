@@ -54,6 +54,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="MainModuleTest.cs" />
+    <Compile Include="CoffeeModule.cs" />
     <Compile Include="WarerModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

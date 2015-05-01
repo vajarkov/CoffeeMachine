@@ -1,50 +1,49 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-
 namespace CoffeeMachine.Test
 {
     [TestClass]
-    public class WaterModuleTests
+    public class CoffeeModuleTests
     {
         [TestMethod]
-        public void WaterModuleTest()
+        public void CoffeeModuleTest()
         {
-            var waterModule = new WaterModule();
+            var coffeeModule = new CoffeeModule();
             //перед тестом наполним отсек водой
-            waterModule.FillWater();
+            coffeeModule.FillCoffee();
             // Модуль содержит 200 единиц воды, "выливаем ее"
-            waterModule.TakeWater(40);
-            waterModule.TakeWater(40);
-            waterModule.TakeWater(40);
-            waterModule.TakeWater(40);
-            waterModule.TakeWater(40);
+            coffeeModule.TakeCoffee(40);
+            coffeeModule.TakeCoffee(40);
+            coffeeModule.TakeCoffee(40);
+            coffeeModule.TakeCoffee(40);
+            coffeeModule.TakeCoffee(40);
 
             try
             {
                 // Из пустого уже не выльешь
-                waterModule.TakeWater(40);
+                coffeeModule.TakeCoffee(40);
 
                 // Если мы дошли сюда, значит исключения не возникло. А должно было
-                Assert.Fail("WaterModuleIsEmptyException is excepted");
+                Assert.Fail("CoffeeModuleIsEmptyException is excepted");
             }
-            catch (WaterModuleIsEmptyException)
+            catch (CoffeeModuleIsEmptyException)
             {
                 // Ожидаемое исключение. Все хорошо
             }
             catch (Exception)
             {
                 // Неожиданное исключение. Что-то пошло не так
-                Assert.Fail("WaterModuleIsEmptyException is excepted");
+                Assert.Fail("CoffeeModuleIsEmptyException is excepted");
             }
 
             // После наполнения из модуля сново должно выливаться 50 единиц воды
-            waterModule.FillWater();
-            waterModule.TakeWater(40);
-            waterModule.TakeWater(40);
-            waterModule.TakeWater(40);
-            waterModule.TakeWater(40);
-            waterModule.TakeWater(40);
+            coffeeModule.FillCoffee();
+            coffeeModule.TakeCoffee(40);
+            coffeeModule.TakeCoffee(40);
+            coffeeModule.TakeCoffee(40);
+            coffeeModule.TakeCoffee(40);
+            coffeeModule.TakeCoffee(40);
         }
     }
 }

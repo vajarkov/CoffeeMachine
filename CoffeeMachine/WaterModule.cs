@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CoffeeMachine
 {
@@ -10,14 +7,9 @@ namespace CoffeeMachine
     {
         private int waterLevel=0;
         
-        public void Fill()
-        {
-            this.waterLevel += 200;
-        }
-
         public void FillWater()
         {
-            this.waterLevel += 50;
+            this.waterLevel += 200;
         }
 
         public void TakeWater(int units)
@@ -30,16 +22,10 @@ namespace CoffeeMachine
             this.waterLevel -= units;
         }
 
-        public void FillWater(int units)
-        {
-            this.waterLevel += units;
-        }
-
         public int WaterLevel
         {
-            get {
-                return this.waterLevel;
-            }
+            get;
+            private set;
         }
     }
 }

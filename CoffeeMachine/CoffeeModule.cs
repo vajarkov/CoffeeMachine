@@ -1,33 +1,31 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CoffeeMachine
 {
-    class CoffeeModule
+    public class CoffeeModule
     {
-        private int coffeeLevel=0;
-
-        public void Fill()
-        {
-            this.coffeeLevel += 200;
-        }
+        private int _coffeeLevel=0;
 
         public void FillCoffee()
         {
-            this.coffeeLevel += 50;
+            this._coffeeLevel += 200;
         }
 
         public void TakeCoffee(int units)
         {
-            this.coffeeLevel -= units;
+            if ((this._coffeeLevel == 0) && (units > 0))
+            {
+                var exception = new CoffeeModuleIsEmptyException("Резервуар пуст!!!");
+                throw exception;
+            }
+            this._coffeeLevel -= units;
         }
 
-        public void FillCoffee(int units)
+        
+        public int CoffeeLevel
         {
-            this.coffeeLevel += units;
+            get;
+            private set;
         }
     }
 }

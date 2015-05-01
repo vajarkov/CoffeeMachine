@@ -1,31 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CoffeeMachine
 {
-    class GarbageModule
+    public class GarbageModule: IGarbageModule 
     {
         private int garbageLevel = 0;
 
-        public void Fill()
+        public void Clear()
         {
-            this.garbageLevel += 200;
+            this.garbageLevel = 0;
         }
 
-        public void FillGarbage()
-        {
-            this.garbageLevel += 50;
-        }
-
-        public void TakeGarbage(int units)
-        {
-            this.garbageLevel -= units;
-        }
-
-        public void FillGarbage(int units)
+        public void InsertGarbage(int units)
         {
             this.garbageLevel += units;
         }

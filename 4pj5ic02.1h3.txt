@@ -1,0 +1,26 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 1 different commit each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# Changes to be committed:
+	deleted:    CoffeeMachine.Test/bin/Debug/CoffeeMachine.Test.pdb
+	deleted:    CoffeeMachine.Test/bin/Debug/CoffeeMachine.exe
+	deleted:    CoffeeMachine.Test/bin/Debug/CoffeeMachine.pdb
+	deleted:    CoffeeMachine.Test/obj/Debug/CoffeeMachine.Test.csproj.FileListAbsolute.txt
+	deleted:    CoffeeMachine.Test/obj/Debug/CoffeeMachine.Test.dll
+	deleted:    CoffeeMachine.Test/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+	deleted:    CoffeeMachine.Test/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+	deleted:    CoffeeMachine.Test/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+	modified:   CoffeeMachine.v12.suo
+	deleted:    CoffeeMachine/obj/Debug/CoffeeMachine.Form1.resources
+	deleted:    CoffeeMachine/obj/Debug/CoffeeMachine.Properties.Resources.resources
+	deleted:    CoffeeMachine/obj/Debug/CoffeeMachine.csproj.GenerateResource.Cache
+	deleted:    CoffeeMachine/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+	deleted:    CoffeeMachine/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+	deleted:    CoffeeMachine/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+
+
