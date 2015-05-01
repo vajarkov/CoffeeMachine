@@ -31,5 +31,12 @@ namespace CoffeeMachine
         {
             _garbageModule.Clear();
         }
+
+        public void MakeCoffee()
+        {
+            _waterModule.TakeWater(20);
+            _coffeeModule.TakeCoffee(20);
+            _garbageModule.InsertGarbage(10);
+        }
     }
 }

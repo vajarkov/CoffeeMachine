@@ -50,6 +50,7 @@
     <Compile Include="CoffeeModule.cs" />
     <Compile Include="CoffeeModuleIsEmptyException.cs" />
     <Compile Include="GarbageModule.cs" />
+    <Compile Include="GarbageModuleIsFullException.cs" />
     <Compile Include="ICoffeeModule.cs" />
     <Compile Include="IGarbageModule.cs" />
     <Compile Include="IWaterModule.cs" />

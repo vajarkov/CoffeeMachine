@@ -8,9 +8,9 @@ namespace CoffeeMachine.Test
     /// Summary description for MainModuleTest
     /// </summary>
     [TestClass]
-    public class MainModuleTest
+    public class MainModuleTests
     {
-        public MainModuleTest()
+        public MainModuleTests()
         {
             //
             // TODO: Add constructor logic here
@@ -49,6 +49,19 @@ namespace CoffeeMachine.Test
             // Вызываем метод, который мы тестируем
             mainModule.FillWater();
             waterModule.Verify(wm => wm.FillWater());
+        }
+
+        [TestMethod]
+        public void MainModuleTest()
+        {
+            var waterModule = new Mock<IWaterModule>();
+            var coffeeModule = new Mock<ICoffeeModule>();
+            var garbageModule = new Mock<IGarbageModule>();
+            var mainModule = new MainModule(waterModule.Object, garbageModule.Object, coffeeModule.Object);
+            mainModule.MakeCoffee();
+            waterModule.Verify(wm => wm.TakeWater(20));
+            garbageModule.Verify(gm => gm.InsertGarbage(10));
+            coffeeModule.Verify(cm => cm.TakeCoffee(20));
         }
     }
 }
