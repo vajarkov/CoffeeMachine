@@ -2,7 +2,7 @@
 
 namespace CoffeeMachine
 {
-    public class CoffeeModule
+    public class CoffeeModule : ICoffeeModule
     {
         private int _coffeeLevel=0;
 

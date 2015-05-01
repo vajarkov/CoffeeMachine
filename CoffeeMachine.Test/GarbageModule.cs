@@ -15,12 +15,7 @@ namespace CoffeeMachine.Test
             garbageModule.InsertGarbage(10);
             garbageModule.InsertGarbage(10);
             garbageModule.InsertGarbage(10);
-            garbageModule.InsertGarbage(10);
-            garbageModule.InsertGarbage(10);
-            garbageModule.InsertGarbage(10);
-            garbageModule.InsertGarbage(10);
-            garbageModule.InsertGarbage(10);
-            garbageModule.InsertGarbage(10);
+            
 
             try
             {
@@ -41,12 +36,7 @@ namespace CoffeeMachine.Test
             garbageModule.InsertGarbage(10);
             garbageModule.InsertGarbage(10);
             garbageModule.InsertGarbage(10);
-            garbageModule.InsertGarbage(10);
-            garbageModule.InsertGarbage(10);
-            garbageModule.InsertGarbage(10);
-            garbageModule.InsertGarbage(10);
-            garbageModule.InsertGarbage(10);
-            garbageModule.InsertGarbage(10);
+   
 
         }
     }

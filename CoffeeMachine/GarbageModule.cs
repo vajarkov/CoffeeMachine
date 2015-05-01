@@ -14,7 +14,7 @@ namespace CoffeeMachine
 
         public void InsertGarbage(int units)
         {
-            if ((this.garbageLevel == 100) && (units > 0))
+            if ((this.garbageLevel == 40) && (units > 0))
             {
                 var exception = new GarbageModuleIsFullException("Резервуар пуст!!!");
                 throw exception;
