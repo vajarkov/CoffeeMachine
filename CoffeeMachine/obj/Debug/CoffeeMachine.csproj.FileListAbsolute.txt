@@ -7,3 +7,4 @@ C:\Users\user\documents\visual studio 2013\Projects\CoffeeMachine\CoffeeMachine\
 C:\Users\user\documents\visual studio 2013\Projects\CoffeeMachine\CoffeeMachine\obj\Debug\CoffeeMachine.csproj.GenerateResource.Cache
 C:\Users\user\documents\visual studio 2013\Projects\CoffeeMachine\CoffeeMachine\obj\Debug\CoffeeMachine.exe
 C:\Users\user\documents\visual studio 2013\Projects\CoffeeMachine\CoffeeMachine\obj\Debug\CoffeeMachine.pdb
+C:\Users\user\documents\visual studio 2013\Projects\CoffeeMachine\CoffeeMachine\obj\Debug\CoffeeMachine.csprojResolveAssemblyReference.cache
